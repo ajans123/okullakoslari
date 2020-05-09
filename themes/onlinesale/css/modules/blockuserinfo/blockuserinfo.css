@@ -1,0 +1,11 @@
+.header_user_info {
+	float: right;
+}
+.header_user_info a {
+}
+ @media (max-width: 479px) {
+.header_user_info a {
+}
+}
+.header_user_info a:hover, .header_user_info a.active {
+}

@@ -1,0 +1,46 @@
+
+ul.product_list.grid.isotope > li{
+min-height: 215px;
+}
+
+.isotope-tabs {
+
+    padding: 10px 0; 
+}
+
+ul.product_list.grid.isotope .quick-view-wrapper-mobile{
+	display:none !important;
+}
+
+
+
+.isotope-tabs li {
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 3px;
+	vertical-align: top;
+}
+.isotope-tabs li button {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: medium none;
+	color: #555454;
+	font-size: 16px;
+	margin: 0;
+	outline: medium none;
+	padding: 10px;
+	text-transform: none;
+	border: medium none;
+	color: #555454;
+	margin: 0;
+	outline: medium none;
+	padding: 10px;
+	text-transform: none;
+}
+.isotope-tabs .is-checked {
+	background: none repeat scroll 0 0 #333333;
+	color: #fff;
+}
+.product-container-isotope {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 1px 1px 1px #e1e1e1;
+}

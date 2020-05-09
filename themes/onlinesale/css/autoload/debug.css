@@ -1,0 +1,14 @@
+ul.product_list.grid.isotope > li .content_price {
+    display: block !important;
+    line-height: 21px;
+    padding-bottom: 9px;
+}
+
+
+.social-block-links {
+    float: left !important;
+}
+
+.blog-post-panel .button.button-small {
+    padding: 5px !important;
+}

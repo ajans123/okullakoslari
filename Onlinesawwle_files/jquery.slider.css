@@ -1,0 +1,90 @@
+
+
+
+.brand-slider {
+	display:inline-block;
+}
+
+.brand-slider .bx-wrapper {
+    position: relative;
+}
+.brand-slider .bx-wrapper li {
+    background: none repeat scroll 0 0 #ffffff;
+  border-right: 1px solid #dadada;
+    height: 90px;
+    left: -3px;
+    position: relative;
+    text-align: center;
+}
+.brand-slider .bx-wrapper li a {
+	
+    display: table-cell;
+    height: 90px;
+    line-height: 41px;
+    vertical-align: middle;
+}
+.brand-slider > .container_9 {
+    margin: 0 auto;
+    width: 925px;
+}
+.brand_wrapper {
+}
+.wrap-brand {
+background: none repeat scroll 0 0 transparent;
+padding: 0;
+border: 1px solid #dadada;
+width: 100%;
+}
+.brand-slider .bx-wrapper{
+	width:100%;
+}
+
+.wrap-brand .bx-pager {
+    display: none;
+}
+.brand_wrapper li {
+}
+.brand_wrapper li a {
+    display: block;
+    position: relative;
+    z-index: 200;
+}
+.wrap-brand .bx-wrapper img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 97%;
+}
+.bx-controls {
+    width: 100%;
+}
+.wrap-brand .bx-wrapper .bx-prev {
+  left: -14px;
+    background: #fff !important;
+}
+.wrap-brand .bx-wrapper .bx-prev:hover {
+    opacity: 0.8;
+}
+.wrap-brand .bx-wrapper .bx-controls-direction a.bx-prev,.wrap-brand  .bx-wrapper .bx-controls-direction a.bx-next {
+    border: 1px solid #dadada;
+    height: 35px;
+    margin-top: -16px;
+    outline: 0 none;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 35px;
+}
+.bx-wrapper .bx-controls-direction a.bx-prev:hover, .bx-wrapper .bx-controls-direction a.bx-next:hover {
+}
+.wrap-brand .bx-wrapper .bx-next {
+   right: -12px;
+    background: #fff !important;
+}
+.wrap-brand .bx-wrapper .bx-next:hover {
+}
+.brand-brd {
+    padding: 0px 0;
+
+}

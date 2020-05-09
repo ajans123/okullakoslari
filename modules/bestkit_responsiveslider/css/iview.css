@@ -1,0 +1,204 @@
+
+.slider-wrapper {
+	margin-top:-10px;
+}
+
+@media screen and (max-width: 1100px) {
+.slider-wrapper {
+	display:none;
+}
+}
+
+
+
+.type3-slide,.type2-slide,.type1-slide{
+	margin:0 auto;
+	
+}
+
+
+/* The presta */
+
+#iview a,#iview a:active, #iview a:visited {
+    outline: medium none;
+    text-decoration: none;
+	text-transform:none;
+	font-weight:normal;
+}
+
+
+
+#iview h1,#iview h2,#iview h3,#iview h4,#iview h5,#iview h6{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.product-box-slider{
+	
+	
+}
+
+
+.product-box-slider img{
+ height: auto;
+    margin: 5px;
+    width: 100%;
+}
+
+
+.product-box-slider .product-thumbnail{
+	text-align:centerl
+}
+
+
+.product-box-slider .product {
+
+  display: inline-block;
+    margin: 0 3px 0 0;
+    vertical-align: top;
+    width: 47%;
+
+}
+
+
+.box-header{
+
+    margin: 5px 5px 10px;
+
+}
+
+
+
+
+/* The slider */
+.iviewSlider {
+	overflow: hidden;
+}
+
+/* The timer in the Slider */
+#iview-timer {
+	position: absolute;
+	z-index: 100;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#iview-timer div {
+	border-radius: 3px;
+}
+
+/* The Preloader in the Slider */
+#iview-preloader {
+	position: absolute;
+	z-index: 1000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: #000 1px solid;
+	padding: 1px;
+	width: 100px;
+	height: 3px;
+}
+#iview-preloader div {
+	float: left;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	height: 3px;
+	background: #000;
+	width: 0px;
+}
+
+/* The strips and boxes in the Slider */
+.iview-strip {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+.iview-block {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.iview-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.iview-prevNav {
+	left:0px;
+}
+.iview-nextNav {
+	right:0px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.iview-controlNav {
+	position:absolute;
+	z-index:9;
+}
+.iview-controlNav a {
+	z-index:9;
+	cursor:pointer;
+}
+.iview-controlNav a.active {
+	font-weight:bold;
+}
+.iview-controlNav .iview-items ul {
+	list-style: none;
+}
+.iview-controlNav .iview-items ul li {
+	display: inline;
+	position: relative;
+}
+.iview-controlNav .iview-tooltip {
+	position: absolute;
+}
+
+/* The captions in the Slider */
+.iview-caption {
+	position:absolute;
+	z-index:4;
+	overflow: hidden;
+	cursor: default;
+}
+
+/* The video show in the Slider */
+.iview-video-show {
+	background: #000;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+}
+.iview-video-show .iview-video-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.iview-video-show .iview-video-container a.iview-video-close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background: #222;
+	color: #FFF;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 22px;
+	font-weight: bold;
+	overflow: hidden;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+.iview-video-show .iview-video-container a.iview-video-close:hover {
+	background: #444;
+}

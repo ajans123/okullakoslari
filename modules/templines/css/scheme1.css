@@ -1,0 +1,99 @@
+html .first-bg, .i-tab li.active, .sf-menu ul {
+	background-color: #ffffff;
+}
+html .first-bg-hover:hover {
+	background-color: #ffffff;
+}
+html .first-color, .btn-icon i {
+	color: #ffffff;
+}
+html .first-brd, .pagination ul .active a, .sf-menu li a:after {
+}
+html .second-bg {
+	background: #90c322;
+}
+html .second-bg-hover:hover {
+	background: #90c322;
+}
+html .second-color {
+	color: #90c322;
+}
+html .second-brd {
+	border-color: #90c322;
+}
+html .third-bg {
+	background: #555555;
+}
+html .third-bg-hover:hover {
+	background: #555555;
+}
+html .third-color {
+	color: f6f6f6;
+}
+html .third-brd {
+	border-color: f6f6f6;
+}
+html .fourth-bg, .cart-table .btn-update span, .opc .active .step-title {
+	background-color: #676767;
+}
+html .fourth-color {
+	color: #424242;
+}
+html .fourth-brd {
+	border-color: #424242;
+}
+html .fifth-bg {
+	background-color: #212224;
+}
+html .fifth-color {
+	color: #212224;
+}
+html .fifth-brd {
+	border-color: #212224;
+}
+/*Theme*/
+
+.sf-menu a:hover, .bx-wrapper .bx-controls-direction a:hover, html .closed {
+}
+.accordion-toggle:hover {
+	background-color: #90c322;
+	color: #fff;
+}
+.accordion-toggle:hover:after {
+	border-color: #90c322 #555555 #555555;
+}
+html .price-notice .price {
+	color: #90c322;
+	font-weight: normal;
+}
+html .product-options-bottom .price, html .product-options-bottom .price-label {
+	color: #90c322;
+}
+.lg-panel a.active, .lg-panel a:hover {
+	background-color: #90c322;
+	color: #fff;
+}
+html .btn-proceed-checkout span, html .btn-icon-primary {
+	background-color: #90c322;
+}
+.btn-icon:hover {
+	background-color: #676767;
+}
+html body .active > a, .active, html #categories_block_left .active a {
+	color: #90c322;
+}
+/*Product*/
+
+
+.address li.address_update a + a {
+	background: none repeat scroll 0 0 #555;
+}
+/*Theme Scheme */
+
+
+.theme-designer-body .title-carousel:after {
+	border-color: #90c322;
+}
+.theme-designer-body .shopping_cart > a:first-child:before, .block .title_block, .btn, button.button, .og-details a.ajax_add_to_cart_button, html .main-menu > li.active > a, .theme-designer-body .mega-menu .menu-title:hover, html body .popover-shorty.color2 i, .theme-designer-body body .popover-shorty.color1 i, .theme-designer-body body .popover-shorty i, .theme-designer-body .search_block_top:hover, .theme-designer-body body .search_block_top, .btn.button-search, .pagination .active.current, ul.pagination li:hover, .theme-designer-body .compare-form .button.button-medium, html .cart_navigation .button-medium, .theme-designer-body body .search_block_top:hover, .header-button i:hover, .address li.address_update a, .content_sortPagiBar .selected, .theme-designer-body .isotope-tabs .is-checked, .theme-designer-body header .popover-shorty i, .box-info-product .exclusive:after, .theme-designer-body .box-info-product .exclusive, .theme-designer-body h3.page-product-heading, .theme-designer-body .price-percent-reduction, .theme-designer-body .label-success, .theme-designer-body .label-info, .theme-designer-body .shrtitle, .theme-designer-body .new-label  , .iview-prevNav , .iview-nextNav{
+	background: none repeat scroll 0 0 #90c322;
+}

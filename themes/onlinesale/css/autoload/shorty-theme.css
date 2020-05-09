@@ -1,0 +1,26 @@
+
+
+
+.panel-heading{
+	 background: none repeat scroll 0 0 #FFFFFF !important;
+    color: #565656 !important;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
+.panel{
+		-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+	border:none !important;
+}
+
+.panel-default{
+	  background: none repeat scroll 0 0 #F6F6F6;
+}
+
+
+.bannercms  .panel-icon-wrap {
+    margin-right: 0;
+}

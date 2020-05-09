@@ -1,0 +1,277 @@
+.og-grid .price {
+	font-size: 30px;
+	margin: 15px 0;
+
+}
+.og-grid .or {
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+  background: none repeat scroll 0 0 #ffffff !important;
+    border: 7px solid #dddddd;
+    border-radius: 100px;
+    color: #484848 !important;
+    font-size: 14px !important;
+    height: 57px;
+    left: -5px;
+    padding: 13px 9px 8px !important;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase !important;
+    transition: all 1s ease 0s;
+    width: 57px;
+	min-width:57px;
+	max-width:57px;
+    z-index: 200;
+}
+.og-details:hover .or {
+	-moz-transform:    rotate(360deg);
+	-o-transform:     rotate(360deg);
+	-webkit-transform:  rotate(360deg);
+	transform:         rotate(360deg);
+}
+.addtocart {
+	background: none repeat scroll 0 0 #FB6E52 !important;
+	left: -10px;
+	position: relative;
+}
+.og-grid li:hover .overlay-grid {
+	opacity:1;
+}
+.overlay-grid {
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 101%;
+	z-index: 999;
+	opacity:0;
+}
+.overlay-grid i {
+	color: #898989;
+	font-size: 59px;
+	left: -9px;
+	position: relative;
+	top: 58px;
+}
+.og-grid {
+	list-style: none;
+	padding: 0 0 20px 0;
+	margin: 0 auto;
+  text-align: center;
+	width: 100%;
+}
+.og-grid li {
+	text-align:center;
+	display: inline-block;
+	height: 185px;
+	margin:10px 2px 0 5px;
+	max-height: 685px;
+	vertical-align: top;
+}
+.og-grid li img {
+	border: 1px solid #DADADA !important;
+}
+.og-grid li > a, .og-grid li > a img {
+border: medium none;
+    display: block;
+    max-width: 185px;
+    outline: medium none;
+    position: relative;
+}
+.og-grid li.og-expanded > a::after {
+	top: auto;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-bottom-color: #ddd;
+	border-width: 15px;
+	left: 50%;
+	margin: -20px 0 0 -15px;
+	z-index:100;
+}
+.og-expander {
+	position: absolute;
+	background: #ddd;
+	top: auto;
+	left: 0;
+	width: 100%;
+	margin-top: 10px;
+	text-align: left;
+	height: 0;
+	overflow: hidden;
+	max-height:480px;
+	padding-bottom:10px;
+}
+.og-expander-inner {
+	height: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 1160px;
+}
+.og-close {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+.og-close::before, .og-close::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	height: 1px;
+	background: #888;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.og-close::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.og-close:hover::before, .og-close:hover::after {
+	background: #333;
+}
+.og-fullimg {
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 35%;
+}
+.og-details {
+	float: left;
+	height: 100%;
+	
+	position: relative;
+	width: 60%;
+}
+.og-details {
+	padding: 0 0 0 20px;
+}
+.og-fullimg {
+	text-align: center;
+}
+.og-fullimg img {
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	border:1px solid #dadada;
+}
+.og-details h3 {
+	color: #484848;
+	font-size: 36px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding: 0;
+	font-family: montserrat;
+}
+.og-details p {
+	color: #898989;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 22px;
+	margin-top: 10px;
+}
+.og-details a {
+	background: none repeat scroll 0 0 #AC92EC;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: montserrat;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 30px 0 0;
+	outline: medium none;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	text-decoration:none !important;
+	  min-width: 185px;
+}
+.og-details a:hover {
+	opacity:0.9;
+}
+.og-loading {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #ddd;
+	box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+	-webkit-animation: loader 0.5s infinite ease-in-out both;
+	-moz-animation: loader 0.5s infinite ease-in-out both;
+	animation: loader 0.5s infinite ease-in-out both;
+}
+ @-webkit-keyframes loader {
+ 0% {
+background: #ddd;
+}
+ 33% {
+background: #ccc;
+box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+}
+ 66% {
+background: #ccc;
+box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+}
+}
+ @-moz-keyframes loader {
+ 0% {
+background: #ddd;
+}
+ 33% {
+background: #ccc;
+box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+}
+ 66% {
+background: #ccc;
+box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+}
+}
+ @keyframes loader {
+ 0% {
+background: #ddd;
+}
+ 33% {
+background: #ccc;
+box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd;
+}
+ 66% {
+background: #ccc;
+box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc;
+}
+}
+ @media screen and (max-width: 830px) {
+.og-expander h3 {
+	font-size: 32px;
+}
+.og-expander p {
+	font-size: 13px;
+}
+.og-expander a {
+	font-size: 12px;
+}
+}
+ @media screen and (max-width: 650px) {
+.og-fullimg {
+	display: none;
+}
+.og-details {
+	float: none;
+	width: 100%;
+}
+}
